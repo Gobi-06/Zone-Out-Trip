@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zone Out Trip – Trips that feel like yours | zoneouttrip.com</title>
+<link rel="canonical" href="https://zoneouttrip.com/" />
+<meta property="og:title" content="Zone Out Trip – Trips that feel like yours" />
+<meta property="og:url" content="https://zoneouttrip.com/" />
+<meta property="og:site_name" content="Zone Out Trip" />
+<meta property="og:image" content="https://zoneouttrip.com/assets/images/munnar-sunrise.jpg" />
+<meta name="description" content="Handpicked stays, comfy rides and day-by-day plans for holidays across India and beyond." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600;1,9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/tailwind.config.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="grain font-sans text-plum antialiased overflow-x-hidden selection:bg-butter-300">
+
+<div class="cursor-dot" id="dot"></div>
+
+<!-- ===== Floating pill nav ===== -->
+<header class="fixed top-4 inset-x-0 z-50 px-4">
+  <nav id="nav" class="mx-auto max-w-5xl flex items-center justify-between gap-4 rounded-full bg-white/70 backdrop-blur-xl border border-white shadow-[0_10px_40px_-15px_rgba(45,42,74,.3)] pl-5 pr-2 py-2 transition-all duration-500">
+    <a href="#top" class="flex items-center gap-2">
+      <svg class="w-8 h-8 animate-spinS" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#FFE699"/><path d="M20 6 L23 20 L20 34 L17 20Z" fill="#FF7A59"/><path d="M6 20 L20 17 L34 20 L20 23Z" fill="#6C7FF2"/><circle cx="20" cy="20" r="3" fill="#2D2A4A"/></svg>
+      <span class="font-display text-xl sm:text-2xl font-extrabold italic whitespace-nowrap">Zone Out <span class="text-tang-500">Trip</span></span>
+    </a>
+    <ul class="hidden md:flex items-center gap-0.5 text-sm font-semibold whitespace-nowrap">
+      <li><a href="#moods" class="px-3 lg:px-4 py-2 rounded-full hover:bg-tang-100 transition">Destinations</a></li>
+      <li><a href="#handle" class="px-3 lg:px-4 py-2 rounded-full hover:bg-mint-100 transition">What we do</a></li>
+      <li><a href="#builder" class="px-3 lg:px-4 py-2 rounded-full hover:bg-butter-100 transition">Build a trip</a></li>
+      <li><a href="#road" class="px-3 lg:px-4 py-2 rounded-full hover:bg-peri-100 transition">How it works</a></li>
+      <li><a href="#ask" class="px-3 lg:px-4 py-2 rounded-full hover:bg-rose-100 transition">Ask us</a></li>
+    </ul>
+    <a href="#builder" class="shrink-0 rounded-full bg-plum text-white text-sm font-bold px-5 py-3 hover:bg-tang-500 transition">Start planning</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="top" class="relative min-h-screen pt-32 pb-16 overflow-hidden">
+  <div class="absolute top-24 -left-20 w-72 h-72 bg-butter-300/60 animate-morph"></div>
+  <div class="absolute bottom-10 right-1/3 w-56 h-56 bg-rose-300/40 animate-morph" style="animation-delay:-5s"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-10 items-center">
+    <div class="lg:col-span-6 in">
+      <p class="inline-flex items-center gap-2 rounded-full border-2 border-dashed border-tang-300 px-4 py-1.5 text-sm font-bold text-tang-600">
+        <span class="w-2 h-2 rounded-full bg-tang-500 animate-ping"></span> You zone out. We plan the trip.
+      </p>
+      <h1 class="mt-6 font-display font-extrabold text-5xl sm:text-6xl xl:text-7xl leading-[1.02] tracking-tight">
+        Trips to the<br>
+        <span class="relative inline-block overflow-hidden align-bottom h-[1.1em] min-w-[5ch]">
+          <span id="rotWord" class="word italic text-tang-500">mountains</span>
+        </span><br>
+        that feel like <span class="italic relative">yours<svg class="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 20" preserveAspectRatio="none"><path d="M3 14 C 50 2, 150 2, 197 12" stroke="#3CC49A" stroke-width="6" fill="none" stroke-linecap="round" class="[stroke-dasharray:240] [stroke-dashoffset:240] animate-[draw_1.4s_.6s_ease_forwards]"/></svg></span>.
+      </h1>
+      <style>@keyframes draw{to{stroke-dashoffset:0}}</style>
+      <p class="mt-8 text-lg text-plum-soft max-w-lg">Tell us where, when and who's coming. We match you with a stay that fits, sort the rides, and hand you a day-by-day plan — all before you pay a rupee.</p>
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        <a href="#builder" class="group inline-flex items-center gap-3 rounded-full bg-tang-500 text-white font-bold pl-7 pr-2 py-2 shadow-[0_14px_30px_-10px_rgba(255,122,89,.7)] hover:bg-tang-600 transition">
+          Build my trip
+          <span class="grid place-items-center w-11 h-11 rounded-full bg-white text-tang-500 group-hover:rotate-45 transition duration-500">↗</span>
+        </a>
+        <a href="#moods" class="font-bold underline decoration-wavy decoration-mint-500 underline-offset-8 hover:text-mint-700">Browse by mood</a>
+      </div>
+      <div class="mt-10 flex items-center gap-6">
+        <div class="flex -space-x-3">
+          <span class="w-11 h-11 rounded-full border-4 border-shell bg-tang-300 grid place-items-center text-lg">🧳</span>
+          <span class="w-11 h-11 rounded-full border-4 border-shell bg-mint-300 grid place-items-center text-lg">🏕</span>
+          <span class="w-11 h-11 rounded-full border-4 border-shell bg-peri-300 grid place-items-center text-lg">🚞</span>
+          <span class="w-11 h-11 rounded-full border-4 border-shell bg-butter-300 grid place-items-center text-lg">🏖</span>
+        </div>
+        <p class="text-sm text-plum-soft"><b class="text-plum">Real humans</b> plan every trip.<br>No bots, no hidden extras.</p>
+      </div>
+    </div>
+
+    <!-- Photo scene with parallax -->
+    <div class="lg:col-span-6 in" style="transition-delay:.2s">
+      <div id="scene" class="relative mx-auto max-w-[560px] aspect-square">
+        <div class="absolute inset-0 rounded-[48%_52%_45%_55%/55%_45%_55%_45%] overflow-hidden shadow-[0_40px_80px_-30px_rgba(108,127,242,.5)] animate-morph">
+          <div data-depth="18" class="absolute -inset-6"><img class="hslide absolute inset-0 w-full h-full object-cover on" src="assets/images/munnar-sunrise.jpg" alt="Golden sunrise over the tea hills of Munnar" data-place="Munnar, Kerala" ><img class="hslide absolute inset-0 w-full h-full object-cover " src="assets/images/goa.jpg" alt="Colourful beach huts under palm trees in Goa" data-place="Goa" loading="lazy"><img class="hslide absolute inset-0 w-full h-full object-cover " src="assets/images/udaipur.jpg" alt="City Palace on Lake Pichola at golden hour" data-place="Udaipur, Rajasthan" loading="lazy"><img class="hslide absolute inset-0 w-full h-full object-cover " src="assets/images/ooty-toy-train.jpg" alt="Nilgiri toy train winding past hillside homes" data-place="Ooty, Tamil Nadu" loading="lazy"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-plum/50 via-transparent to-transparent pointer-events-none"></div>
+          <div class="absolute bottom-[14%] left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-white/85 backdrop-blur px-4 py-1.5 text-sm font-bold shadow"><span>📍</span><span id="hPlace">Munnar, Kerala</span></div>
+        </div>
+        <!-- floating stickers -->
+        <div class="absolute -left-4 top-12 rotate-[-8deg] rounded-2xl bg-white shadow-xl px-4 py-3 animate-bob">
+          <p class="text-xs font-bold text-mint-700">✔ Stay verified</p><p class="font-display font-extrabold text-lg">Lakeview cottage</p>
+        </div>
+        <div class="absolute -right-2 bottom-20 rotate-[6deg] rounded-2xl bg-plum text-white shadow-xl px-4 py-3 animate-bob-slow">
+          <p class="text-xs text-butter-300 font-bold">Cab booked 🚕</p><p class="font-bold">Pickup · 6:30 AM</p>
+        </div>
+        <div class="absolute left-8 -bottom-4 rounded-full bg-butter-300 px-5 py-2 font-bold shadow-lg animate-sway origin-top">Day 2 · Sunrise point ☀️</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- scroll hint -->
+  <a href="#moods" class="hidden lg:flex absolute bottom-6 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-xs font-bold text-plum-soft">
+    scroll
+    <span class="w-6 h-10 rounded-full border-2 border-plum-soft grid justify-center pt-2"><span class="w-1 h-2 rounded-full bg-tang-500 animate-bounce"></span></span>
+  </a>
+</section>
+
+<!-- ===== MOOD PICKER + POSTCARDS ===== -->
+<section id="moods" class="relative py-24 bg-white rounded-t-[3rem] sm:rounded-t-[5rem] shadow-[0_-20px_60px_-30px_rgba(45,42,74,.2)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="grid lg:grid-cols-2 gap-8 items-end in">
+      <div>
+        <p class="text-sm font-extrabold tracking-[.25em] uppercase text-tang-500">Pick a mood</p>
+        <h2 class="mt-3 font-display font-extrabold text-4xl sm:text-5xl leading-tight">What is your heart <span class="italic text-peri-500">craving</span> right now?</h2>
+      </div>
+      <div class="flex flex-wrap gap-3 lg:justify-end" role="tablist">
+        <button class="chip rounded-full border-2 border-plum/15 px-5 py-2.5 font-bold transition" data-mood="hills" aria-pressed="true">⛰ Cool hills</button>
+        <button class="chip rounded-full border-2 border-plum/15 px-5 py-2.5 font-bold transition" data-mood="beach" aria-pressed="false">🌊 Salty air</button>
+        <button class="chip rounded-full border-2 border-plum/15 px-5 py-2.5 font-bold transition" data-mood="heritage" aria-pressed="false">🏰 Old stories</button>
+        <button class="chip rounded-full border-2 border-plum/15 px-5 py-2.5 font-bold transition" data-mood="wild" aria-pressed="false">🐘 Into the wild</button>
+      </div>
+    </div>
+    <div id="cards" class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8"></div>
+  </div>
+</section>
+
+<!-- ===== BENTO: WHAT WE HANDLE ===== -->
+<section id="handle" class="py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto in">
+      <p class="text-sm font-extrabold tracking-[.25em] uppercase text-mint-700">One planner, everything sorted</p>
+      <h2 class="mt-3 font-display font-extrabold text-4xl sm:text-5xl">You pack the bags.<br><span class="italic text-tang-500">We handle the rest.</span></h2>
+    </div>
+
+    <div class="mt-14 grid grid-cols-1 md:grid-cols-6 gap-5 auto-rows-[minmax(180px,auto)]">
+      <div class="in md:col-span-4 md:row-span-2 group relative rounded-[2rem] bg-tang-100 p-8 overflow-hidden">
+        <div class="hidden md:block absolute right-6 top-6 bottom-6 w-[42%] rounded-[1.5rem] overflow-hidden rotate-2 group-hover:rotate-0 transition duration-700 shadow-xl">
+          <img src="assets/images/hillside-villa.jpg" alt="Hillside holiday home with balconies" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition duration-[1.2s]">
+          <span class="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold">✔ Verified stay</span>
+        </div>
+        <div class="md:hidden -mx-8 -mt-8 mb-6 h-48 overflow-hidden"><img src="assets/images/hillside-villa.jpg" alt="Hillside holiday home" loading="lazy" class="w-full h-full object-cover"></div>
+        <div class="relative max-w-sm">
+          <span class="text-5xl inline-block group-hover:-rotate-12 group-hover:scale-110 transition">🏡</span>
+          <h3 class="mt-4 font-display font-extrabold text-3xl">Stays we've actually checked</h3>
+          <p class="mt-3 text-plum-soft">Villas, cottages and homestays shortlisted for your group size, comfort level and budget — with honest photos and clear room details.</p>
+        </div>
+        <div class="relative mt-8 flex flex-wrap gap-3 md:max-w-[52%]">
+          <span class="rounded-full bg-white px-4 py-2 text-sm font-bold shadow">🛜 Wi-Fi</span>
+          <span class="rounded-full bg-white px-4 py-2 text-sm font-bold shadow">🚗 Parking</span>
+          <span class="rounded-full bg-white px-4 py-2 text-sm font-bold shadow">👨‍👩‍👧 Family-friendly</span>
+          <span class="rounded-full bg-white px-4 py-2 text-sm font-bold shadow">🔥 Hot water</span>
+        </div>
+      </div>
+      <div class="in md:col-span-2 group rounded-[2rem] bg-mint-100 text-white p-7 overflow-hidden relative" style="transition-delay:.1s">
+        <img src="assets/images/wayanad-road.jpg" alt="Car on a winding hill road through tea estates" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-[1.2s]">
+        <div class="absolute inset-0 bg-gradient-to-t from-plum/85 via-plum/40 to-transparent"></div>
+        <div class="absolute top-6 -left-16 z-10 text-5xl group-hover:translate-x-[22rem] transition-transform duration-[1.6s] ease-in-out">🚕</div>
+        <h3 class="relative font-display font-extrabold text-2xl mt-16">Rides, sorted</h3>
+        <p class="relative mt-2 text-white/85">Station pickup, drop-offs and sightseeing cabs planned around your route.</p>
+      </div>
+      <div class="in md:col-span-2 group rounded-[2rem] bg-peri-100 p-7" style="transition-delay:.2s">
+        <div class="flex gap-1.5">
+          <span class="h-2 flex-1 rounded-full bg-peri-500 origin-left scale-x-50 group-hover:scale-x-100 transition duration-500"></span>
+          <span class="h-2 flex-1 rounded-full bg-peri-300 origin-left scale-x-[.25] group-hover:scale-x-100 transition duration-700"></span>
+          <span class="h-2 flex-1 rounded-full bg-peri-300/60 origin-left scale-x-0 group-hover:scale-x-100 transition duration-1000"></span>
+        </div>
+        <h3 class="mt-5 font-display font-extrabold text-2xl">Day-by-day plans</h3>
+        <p class="mt-2 text-plum-soft">A relaxed itinerary paced for your crew — no 5 AM marathons unless you want them.</p>
+      </div>
+      <div class="in md:col-span-3 rounded-[2rem] bg-plum text-white p-7 flex items-center gap-5" style="transition-delay:.1s">
+        <span class="relative grid place-items-center w-16 h-16 shrink-0 rounded-2xl bg-butter-300 text-3xl"><span class="absolute inset-0 rounded-2xl bg-butter-300 animate-ping opacity-40"></span>💬</span>
+        <div><h3 class="font-display font-extrabold text-2xl">Talk to a real person</h3><p class="text-white/70">Questions mid-trip? Message your planner anytime.</p></div>
+      </div>
+      <div class="in md:col-span-3 rounded-[2rem] bg-butter-100 p-7 flex items-center gap-5" style="transition-delay:.2s">
+        <span class="grid place-items-center w-16 h-16 shrink-0 rounded-2xl bg-rose-300 text-3xl">🧾</span>
+        <div><h3 class="font-display font-extrabold text-2xl">Price you can read</h3><p class="text-plum-soft">Every inclusion listed in your quote. Nothing sneaks in later.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRIP BUILDER ===== -->
+<section id="builder" class="py-24 bg-gradient-to-br from-peri-100 via-shell to-rose-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-start">
+    <div class="in">
+      <p class="text-sm font-extrabold tracking-[.25em] uppercase text-peri-500">Trip builder</p>
+      <h2 class="mt-3 font-display font-extrabold text-4xl sm:text-5xl">Sketch your trip in <span class="italic text-tang-500">30 seconds</span></h2>
+      <p class="mt-4 text-plum-soft">Play with the details — your ticket updates live. Send it over and a planner replies with stay options and a quote.</p>
+
+      <div class="mt-10 space-y-8">
+        <div>
+          <label class="font-bold" for="bDest">Where to?</label>
+          <select id="bDest" class="mt-2 w-full rounded-2xl border-2 border-white bg-white/80 px-5 py-4 font-semibold outline-none focus:border-tang-300 transition"></select>
+        </div>
+        <div>
+          <div class="flex justify-between font-bold"><label for="bNights">How many nights?</label><span><span id="nVal">3</span> nights</span></div>
+          <input id="bNights" type="range" min="1" max="10" value="3" class="mt-4 w-full">
+        </div>
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div>
+            <p class="font-bold">Travellers</p>
+            <div class="mt-2 flex items-center justify-between rounded-2xl bg-white/80 p-2">
+              <button data-step="-1" class="tr w-12 h-12 rounded-xl bg-tang-100 text-2xl font-bold hover:bg-tang-300 transition">−</button>
+              <span id="tVal" class="font-display text-3xl font-extrabold">2</span>
+              <button data-step="1" class="tr w-12 h-12 rounded-xl bg-tang-100 text-2xl font-bold hover:bg-tang-300 transition">+</button>
+            </div>
+          </div>
+          <div>
+            <label class="font-bold" for="bDate">Start date</label>
+            <input id="bDate" type="date" class="mt-2 w-full rounded-2xl bg-white/80 px-5 py-4 font-semibold outline-none focus:ring-2 focus:ring-tang-300">
+          </div>
+        </div>
+        <div>
+          <p class="font-bold">Trip vibe</p>
+          <div class="mt-3 flex flex-wrap gap-2" id="vibes">
+            <button class="vibe rounded-full border-2 border-plum/15 bg-white/70 px-4 py-2 font-semibold transition" aria-pressed="true">😌 Slow & cosy</button>
+            <button class="vibe rounded-full border-2 border-plum/15 bg-white/70 px-4 py-2 font-semibold transition" aria-pressed="false">🧗 Adventure</button>
+            <button class="vibe rounded-full border-2 border-plum/15 bg-white/70 px-4 py-2 font-semibold transition" aria-pressed="false">👨‍👩‍👧 Family</button>
+            <button class="vibe rounded-full border-2 border-plum/15 bg-white/70 px-4 py-2 font-semibold transition" aria-pressed="false">💞 Couple</button>
+            <button class="vibe rounded-full border-2 border-plum/15 bg-white/70 px-4 py-2 font-semibold transition" aria-pressed="false">🎉 Friends</button>
+          </div>
+        </div>
+        <div>
+          <p class="font-bold">Add to the plan</p>
+          <div class="mt-3 grid grid-cols-3 gap-3" id="addons">
+            <label class="cursor-pointer"><input type="checkbox" value="Cab" class="peer sr-only" checked><span class="block text-center rounded-2xl border-2 border-white bg-white/70 py-4 font-semibold peer-checked:border-mint-500 peer-checked:bg-mint-100 transition">🚕<br>Cab</span></label>
+            <label class="cursor-pointer"><input type="checkbox" value="Sightseeing" class="peer sr-only" checked><span class="block text-center rounded-2xl border-2 border-white bg-white/70 py-4 font-semibold peer-checked:border-mint-500 peer-checked:bg-mint-100 transition">📸<br>Sightseeing</span></label>
+            <label class="cursor-pointer"><input type="checkbox" value="Meals" class="peer sr-only"><span class="block text-center rounded-2xl border-2 border-white bg-white/70 py-4 font-semibold peer-checked:border-mint-500 peer-checked:bg-mint-100 transition">🍲<br>Meals</span></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live boarding pass -->
+    <div class="lg:sticky lg:top-28 in" style="transition-delay:.15s">
+      <div id="ticket" class="relative rotate-2 hover:rotate-0 transition duration-500">
+        <div class="rounded-t-[2rem] bg-plum text-white p-7 relative overflow-hidden">
+          <div class="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-tang-500/40 animate-morph"></div>
+          <div class="relative flex justify-between items-start">
+            <div><p class="text-xs uppercase tracking-[.3em] text-white/60">Holiday pass</p><p class="font-display italic font-extrabold text-2xl">Zone Out Trip</p></div>
+            <span class="rounded-full bg-butter-300 text-plum text-xs font-extrabold px-3 py-1">DRAFT</span>
+          </div>
+          <div class="relative mt-8 flex items-center justify-between gap-4">
+            <div><p class="text-xs text-white/60">FROM</p><p class="font-display text-4xl font-extrabold">HOME</p></div>
+            <div class="flex-1 relative h-6"><div class="absolute top-1/2 inset-x-0 border-t-2 border-dashed border-white/40"></div><span id="plane" class="absolute -top-1 text-xl transition-all duration-700" style="left:0">✈️</span></div>
+            <div class="text-right"><p class="text-xs text-white/60">TO</p><p id="tCode" class="font-display text-4xl font-extrabold text-butter-300">KOD</p></div>
+          </div>
+          <p id="tName" class="relative text-right text-sm text-white/70 mt-1">Kodaikanal</p>
+        </div>
+        <div class="ticket-cut bg-white h-7 relative"><div class="absolute top-1/2 left-6 right-6 border-t-2 border-dashed border-plum/15"></div></div>
+        <div class="rounded-b-[2rem] bg-white p-7 shadow-[0_30px_60px_-25px_rgba(45,42,74,.35)]">
+          <div class="grid grid-cols-3 gap-4 text-center">
+            <div><p class="text-xs font-bold text-plum-soft">NIGHTS</p><p id="pN" class="font-display text-3xl font-extrabold">3</p></div>
+            <div><p class="text-xs font-bold text-plum-soft">GUESTS</p><p id="pT" class="font-display text-3xl font-extrabold">2</p></div>
+            <div><p class="text-xs font-bold text-plum-soft">DEPART</p><p id="pD" class="font-display text-xl font-extrabold mt-1.5">Flexible</p></div>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-2" id="pTags"></div>
+          <div class="mt-6 flex items-end justify-between gap-4">
+            <div class="flex gap-[3px] h-12 items-end" id="barcode"></div>
+            <a id="sendBtn" href="#" target="_blank" rel="noopener" class="rounded-full bg-tang-500 hover:bg-tang-600 text-white font-bold px-6 py-3.5 shadow-lg shadow-tang-500/30 transition hover:-translate-y-0.5">Send to planner →</a>
+          </div>
+        </div>
+      </div>
+      <p class="mt-6 text-center text-sm text-plum-soft">Opens WhatsApp with your trip details pre-filled.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ROAD JOURNEY (how it works) ===== -->
+<section id="road" class="py-24 relative">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="text-center in">
+      <p class="text-sm font-extrabold tracking-[.25em] uppercase text-rose-500">How it works</p>
+      <h2 class="mt-3 font-display font-extrabold text-4xl sm:text-5xl">From "maybe" to <span class="italic text-mint-700">on the road</span></h2>
+    </div>
+    <div id="roadWrap" class="relative mt-16">
+      <svg class="absolute left-1/2 -translate-x-1/2 top-0 h-full w-40 hidden md:block" viewBox="0 0 160 1000" preserveAspectRatio="none" fill="none">
+        <path id="roadPath" d="M80 0 C 160 120, 0 220, 80 340 S 160 560, 80 680 S 0 880, 80 1000" stroke="#FFE4DA" stroke-width="26" stroke-linecap="round"/>
+        <path d="M80 0 C 160 120, 0 220, 80 340 S 160 560, 80 680 S 0 880, 80 1000" stroke="#fff" stroke-width="3" stroke-dasharray="14 14"/>
+      </svg>
+      <div id="car" class="hidden md:grid absolute left-1/2 top-0 z-10 w-14 h-14 place-items-center rounded-full bg-white shadow-xl text-2xl -translate-x-1/2 -translate-y-1/2">🚙</div>
+
+      <div class="space-y-16 md:space-y-28">
+        <div class="in md:grid md:grid-cols-2 md:gap-32 items-center">
+          <div class="rounded-[2rem] bg-tang-100 p-8 md:text-right">
+            <span class="font-display text-6xl font-extrabold text-tang-300">01</span>
+            <h3 class="font-display font-extrabold text-2xl mt-2">Tell us the basics</h3>
+            <p class="mt-2 text-plum-soft">Where, when, how many and roughly how much. Two minutes on WhatsApp or the builder above.</p>
+          </div><div></div>
+        </div>
+        <div class="in md:grid md:grid-cols-2 md:gap-32 items-center">
+          <div></div>
+          <div class="rounded-[2rem] bg-mint-100 p-8">
+            <span class="font-display text-6xl font-extrabold text-mint-300">02</span>
+            <h3 class="font-display font-extrabold text-2xl mt-2">Compare a few good options</h3>
+            <p class="mt-2 text-plum-soft">We send 2–3 stay choices with an itinerary and a clear quote. Swap anything you like.</p>
+          </div>
+        </div>
+        <div class="in md:grid md:grid-cols-2 md:gap-32 items-center">
+          <div class="rounded-[2rem] bg-peri-100 p-8 md:text-right">
+            <span class="font-display text-6xl font-extrabold text-peri-300">03</span>
+            <h3 class="font-display font-extrabold text-2xl mt-2">Confirm with confidence</h3>
+            <p class="mt-2 text-plum-soft">Lock it in through a secure payment and get all your trip details in one place.</p>
+          </div><div></div>
+        </div>
+        <div class="in md:grid md:grid-cols-2 md:gap-32 items-center">
+          <div></div>
+          <div class="rounded-[2rem] bg-butter-100 p-8">
+            <span class="font-display text-6xl font-extrabold text-butter-500/60">04</span>
+            <h3 class="font-display font-extrabold text-2xl mt-2">Go. We've got your back.</h3>
+            <p class="mt-2 text-plum-soft">Your cab is waiting, your room is ready, and your planner is one message away.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ASK US (chat-style FAQ) ===== -->
+<section id="ask" class="py-24 bg-white rounded-[3rem] sm:rounded-[5rem] mx-2 sm:mx-6">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-5 gap-12 items-start">
+    <div class="lg:col-span-2 in">
+      <p class="text-sm font-extrabold tracking-[.25em] uppercase text-peri-500">Ask us anything</p>
+      <h2 class="mt-3 font-display font-extrabold text-4xl sm:text-5xl">Got questions? <span class="italic text-rose-500">Tap one.</span></h2>
+      <p class="mt-4 text-plum-soft">The answers we give most often, in the chat-style way we'd actually answer them.</p>
+      <div class="mt-8 flex flex-col items-start gap-3" id="qChips"></div>
+    </div>
+    <div class="lg:col-span-3 in" style="transition-delay:.15s">
+      <div class="rounded-[2rem] bg-shell border-4 border-white shadow-[0_30px_60px_-30px_rgba(45,42,74,.35)] overflow-hidden">
+        <div class="flex items-center gap-3 bg-mint-500 text-white px-6 py-4">
+          <span class="relative grid place-items-center w-11 h-11 rounded-full bg-white text-xl">🧭<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-butter-300 border-2 border-mint-500"></span></span>
+          <div><p class="font-bold">Your Zone Out Trip planner</p><p class="text-xs text-white/80">usually replies in minutes</p></div>
+        </div>
+        <div id="chat" class="h-[420px] overflow-y-auto p-6 space-y-4 scroll-smooth">
+          <div class="animate-rise max-w-[80%] rounded-3xl rounded-tl-md bg-white px-5 py-3 shadow">Hi there 👋 Pick a question on the left and I'll answer right here.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="py-24 px-4 sm:px-6">
+  <div class="in relative max-w-6xl mx-auto overflow-hidden rounded-[3rem] bg-tang-500 text-white px-8 py-16 sm:p-20">
+    <img src="assets/images/munnar-sunrise.jpg" alt="" loading="lazy" class="absolute inset-0 w-full h-full object-cover scale-110" id="ctaImg">
+    <div class="absolute inset-0 bg-gradient-to-r from-tang-600/95 via-tang-500/80 to-tang-500/30"></div>
+    <div class="absolute -right-20 -top-20 w-96 h-96 bg-butter-300 animate-morph opacity-40 mix-blend-soft-light"></div>
+    <div class="absolute -left-16 -bottom-24 w-80 h-80 bg-rose-300 animate-morph opacity-40 mix-blend-soft-light" style="animation-delay:-6s"></div>
+    <div class="relative grid lg:grid-cols-3 gap-10 items-center">
+      <div class="lg:col-span-2">
+        <h2 class="font-display font-extrabold text-4xl sm:text-6xl leading-tight">The hills won't wait.<br><span class="italic text-plum">Neither should you.</span></h2>
+        <p class="mt-5 text-lg text-white/90 max-w-xl">Send your dates and headcount — get a ready-to-go plan with stays, rides and a clear quote.</p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <a id="ctaWa" href="#" target="_blank" rel="noopener" class="text-center rounded-full bg-plum text-white font-bold px-8 py-5 hover:scale-105 transition shadow-2xl">💬 Chat with a planner</a>
+        <a href="#builder" class="text-center rounded-full bg-white text-tang-600 font-bold px-8 py-5 hover:scale-105 transition">✏️ Build my trip</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="relative bg-plum text-white pt-24 pb-10 mt-10">
+  <svg class="absolute -top-px left-0 w-full h-16 text-shell" viewBox="0 0 1440 80" preserveAspectRatio="none" fill="currentColor"><path d="M0 0h1440v30c-120 30-240 40-360 20S840 0 720 20 480 70 360 60 120 20 0 40Z"/></svg>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <p class="font-display italic font-extrabold text-3xl">Zone Out <span class="text-tang-500">Trip</span></p>
+      <a href="https://zoneouttrip.com" class="text-sm font-bold text-butter-300 hover:text-white">zoneouttrip.com</a>
+      <p class="mt-3 text-white/60 text-sm">Handpicked stays, comfy rides and day-by-day plans for holidays across India and beyond.</p>
+      <div class="mt-5 flex gap-3">
+        <a href="#" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-tang-500 transition" aria-label="Instagram">📷</a>
+        <a href="#" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-tang-500 transition" aria-label="YouTube">▶</a>
+        <a href="mailto:hello@zoneouttrip.com" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-tang-500 transition" aria-label="Email">✉</a>
+      </div>
+    </div>
+    <div><p class="font-bold mb-4 text-butter-300">Explore</p><ul class="space-y-2 text-white/70 text-sm"><li><a href="#moods" class="hover:text-white">Destinations</a></li><li><a href="#builder" class="hover:text-white">Trip builder</a></li><li><a href="#handle" class="hover:text-white">Stays & rides</a></li></ul></div>
+    <div><p class="font-bold mb-4 text-mint-300">Help</p><ul class="space-y-2 text-white/70 text-sm"><li><a href="#ask" class="hover:text-white">FAQs</a></li><li><a href="#" class="hover:text-white">Payment safety</a></li><li><a href="#" class="hover:text-white">Terms</a></li></ul></div>
+    <div>
+      <p class="font-bold mb-4 text-rose-300">Get trip ideas</p>
+      <form id="news" class="flex rounded-full bg-white/10 p-1.5">
+        <input type="email" required placeholder="you@email.com" class="min-w-0 flex-1 bg-transparent px-4 outline-none placeholder:text-white/40 text-sm">
+        <button class="rounded-full bg-tang-500 px-5 py-2.5 font-bold text-sm hover:bg-tang-600 transition">Join</button>
+      </form>
+      <p id="newsMsg" class="mt-2 text-sm text-mint-300 hidden">You're in! 🎉</p>
+    </div>
+  </div>
+  <p class="mt-14 text-center text-white/40 text-sm">© 2026 Zone Out Trip · <a href="https://zoneouttrip.com" class="hover:text-white">zoneouttrip.com</a> · Made for people who'd rather be somewhere else 🌏<br><span class="text-xs">Photos from <a href="https://unsplash.com" class="underline hover:text-white">Unsplash</a></span></p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
